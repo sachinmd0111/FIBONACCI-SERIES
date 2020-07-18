@@ -1,0 +1,19 @@
+def fibonacci(x):  
+ a=0
+ b=1
+ count=2
+ if x=='1':
+     print(a)
+ elif x=='2':
+     print(a, '\n',b,sep='')
+ else:
+    print(a, '\n',b, sep='')
+    
+ while count<x:
+        c=a+b
+        print(c)
+        a=b
+        b=c
+        count+=1
+fibonacci(int(input("Enter how many terms ")))
+          
